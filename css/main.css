@@ -43,7 +43,7 @@ h4 {
 p {
 	font-size: 14px;
 	line-height: 21px;
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
 /***** Delete any fixed heights and floats- flexbox will be used to handle that now *****/
@@ -96,7 +96,6 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	margin: 0 auto;
-	clear: both;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -106,7 +105,7 @@ header nav ul li a{
 
 .main-image {
 	height: auto;
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -115,7 +114,7 @@ header nav ul li a{
 .main-image img {
 	border-bottom: 3px solid #77a466;
 	border-top: 3px solid #77a466;
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -125,16 +124,16 @@ header nav ul li a{
 	height: auto;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 	flex-flow: row wrap;
 }
 
 .main-title h3 {
-	text-align: center;
 	padding: 5px 0;
 	color: #77a466;
 }
+
 .main-title p {
 	padding: 0;
 	font-size: 16px;
@@ -148,20 +147,12 @@ header nav ul li a{
 	height: auto;
 	border-top: 1px solid #eee;
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	}
+}
 
 .section-one h4 {
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
 
 .section-two h4,
 .section-three h4 {
@@ -172,40 +163,23 @@ header nav ul li a{
 	list-style: none;
 	padding: 0;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	}
+}
 
-	.menu ul {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
 
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .reviews {
 	color: #333;
 	font-size: 16px;
 	line-height: 21px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	}
 
 .address {
 	font-size: 16px;
 	line-height: 24px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 /*The widths are in a percentage!*/
@@ -213,7 +187,6 @@ footer {
 	/***** used to be height: 50px; deleting for mobile first *****/
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	clear: both;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -282,7 +255,6 @@ header {
 }
 
 header h1 {
-	float: left;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -314,13 +286,12 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	margin: 0 auto;
-	clear: both;
 }
 
 .main-image {
 	height: auto;
-	float: left;
 }
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -328,8 +299,8 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	float: left;
 }
+
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
@@ -346,7 +317,6 @@ header nav ul li a{
 .section-three {
 	width: 33%;
 	height: auto;
-	float: left;
 	border-top: 1px solid #eee;
 }
 
@@ -389,7 +359,6 @@ footer {
 	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	clear: both;
 	text-align: center;
 }
 footer span {
